@@ -20,6 +20,10 @@ public class Rest implements Music {
         checkRep();
     }
     
+    public double duration() {
+        return this.duration;
+    }
+    
     /**
      * @requires v != null
      */
