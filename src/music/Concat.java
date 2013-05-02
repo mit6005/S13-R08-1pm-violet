@@ -9,9 +9,9 @@ public class Concat implements Music {
     // Rep invariant: m1, m2 != null
     
     private void checkRep() {
-    	if(this.first== null||this.second== null){
-    		throw new RuntimeException("Rep is violated");
-    	}
+    	assert(this.first!=null);
+    	assert(this.second!=null);
+    	
     }
     
     /**
