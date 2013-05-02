@@ -197,7 +197,7 @@ public class SequencePlayer {
     /**
      * Play an octave up and back down starting from middle C.
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InvalidMidiDataException, MidiUnavailableException{
         SequencePlayer player;
 
         // create a new player, with 120 beats (i.e. quarter note) per
